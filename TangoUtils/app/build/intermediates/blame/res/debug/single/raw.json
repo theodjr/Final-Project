@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\grey_scale_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\grey_scale_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\fog_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\fog_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\color_threshold_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\color_threshold_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copy_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\copy_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\copy_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\copy_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sepia_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\sepia_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blur_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\blur_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\vignette_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\vignette_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\color_threshold_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\color_threshold_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blend_screen_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\blend_screen_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\minimal_vertex_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\minimal_vertex_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\grey_scale_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\grey_scale_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\vignette_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\vignette_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sepia_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\sepia_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blend_screen_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\blend_screen_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blur_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\blur_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blend_add_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\blend_add_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\minimal_vertex_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\minimal_vertex_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\fog_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\tango-examples-java\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\fog_fragment_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\res\\merged\\debug\\raw\\blend_add_fragment_shader.glsl",
+        "source": "C:\\Users\\Theo_\\Creative Component\\TangoUtils\\app\\build\\intermediates\\exploded-aar\\org.rajawali3d\\rajawali\\1.0.294-SNAPSHOT\\res\\raw\\blend_add_fragment_shader.glsl"
+    }
+]
