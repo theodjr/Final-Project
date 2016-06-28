@@ -18,25 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:columnCount="6">
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ki2+.01"
-        android:id="@+id/button3"
-        android:layout_row="1"
-        android:layout_column="3"
-        android:onClick="kdclick" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:id="@+id/kdtxt"
-        android:layout_row="1"
-        android:layout_column="4" />
+    android:columnCount="7">
 
     <Button
             android:id="@+id/ButtonFish"
@@ -51,19 +33,20 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ki + .01"
-        android:id="@+id/button4"
+        android:text="k2+1"
+        android:id="@+id/button5"
         android:layout_row="2"
         android:layout_column="3"
-        android:onClick="kiclick" />
+        android:onClick="k2click" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:id="@+id/kitxt"
+        android:id="@+id/k2txt"
         android:layout_row="2"
-        android:layout_column="4" />
+        android:layout_column="4"
+        android:minWidth="20dp" />
 
     <Button
         android:id="@+id/Buttonserial"
@@ -78,17 +61,17 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="k2+1"
-        android:id="@+id/button5"
+        android:text="ki2+.01"
+        android:id="@+id/button3"
         android:layout_row="3"
         android:layout_column="3"
-        android:onClick="k2click" />
+        android:onClick="ki2click" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:id="@+id/k2txt"
+        android:id="@+id/ki2txt"
         android:layout_row="3"
         android:layout_column="4" />
 
@@ -153,15 +136,16 @@
         android:id="@+id/button6"
         android:layout_row="4"
         android:layout_column="3"
-        android:onClick="kd2click" />
+        android:onClick="dxclick" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:id="@+id/kd2txt"
+        android:id="@+id/dxtxt"
         android:layout_row="4"
-        android:layout_column="4" />
+        android:layout_column="4"
+        android:minWidth="50dp" />
 
     <Button
         android:layout_width="100dp"
@@ -181,7 +165,7 @@
         android:layout_row="5"
         android:layout_column="3"
         android:text="dz+1"
-        android:onClick="ki2click" />
+        android:onClick="dzclick" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -195,7 +179,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:id="@+id/ki2txt"
+        android:id="@+id/dztxt"
         android:layout_row="5"
         android:layout_column="4" />
 
