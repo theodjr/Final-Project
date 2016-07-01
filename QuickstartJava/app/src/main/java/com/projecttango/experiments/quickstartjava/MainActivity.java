@@ -16,7 +16,8 @@
 
 package com.projecttango.experiments.quickstartjava;
 
-
+import android.nfc.Tag;
+import android.util.Log;
 import com.google.atap.tangoservice.Tango;
 import com.google.atap.tangoservice.Tango.OnTangoUpdateListener;
 import com.google.atap.tangoservice.TangoConfig;
@@ -121,7 +122,7 @@ public class MainActivity extends Activity{
 
 
 
-
+    private static final String TAG = MainActivity.class.getSimpleName();
 
 
     private Double control2=0.0;
@@ -361,7 +362,7 @@ public class MainActivity extends Activity{
                     //Communication start
                     try {
                         //Ping robot
-                        usbService.write(sync0);
+                        FUNNYWRITE(sync0);
                         listen = sync0;
                         recieved = false;
                         Long t0 = System.currentTimeMillis();
@@ -378,7 +379,7 @@ public class MainActivity extends Activity{
                         listen = sync1;
                         recieved = false;
                         t0 = System.currentTimeMillis();
-                        usbService.write(sync1);
+                        FUNNYWRITE(sync1);
                         //Wait for reply
                         while (!recieved & !interupt) {
                             if (System.currentTimeMillis() - t0 > 1000) {
@@ -388,7 +389,7 @@ public class MainActivity extends Activity{
                         }
                         Thread.sleep(200);
                         //Last ping. Response ignored
-                        usbService.write(sync2);
+                        FUNNYWRITE(sync2);
                         Thread.sleep(200);
 
                     } catch (Exception e) {
@@ -401,8 +402,8 @@ public class MainActivity extends Activity{
                         byte datatype;
                         byte command2;
                         //Send the "Open" command which is the same as sync1. Delay to allow user to position device as desired.
-                        usbService.write(sync1);
-                        Thread.sleep(1500);
+                        FUNNYWRITE(sync1);
+                        Thread.sleep(1000);
 
                         //Send command #4: Enables motors. Amigobot will not move without this command.
                         n = 6;
@@ -417,7 +418,7 @@ public class MainActivity extends Activity{
                         outgoing.write(command2);
                         outgoing.write(0);
                         commandByte = checkSum(outgoing);
-                        usbService.write(commandByte);
+                        FUNNYWRITE(commandByte);
                         outgoing.reset();
                         Thread.sleep(1000);
                     } catch (Exception e) {
@@ -427,7 +428,7 @@ public class MainActivity extends Activity{
 
                     Integer n2 = 1;
                     try {
-                        do {
+                        do {Log.d(TAG,"File Setup");
                             String filename = "Output" + n2.toString() + ".txt";
                             file = new File(Environment.getExternalStoragePublicDirectory(
                                     Environment.DIRECTORY_DOWNLOADS), filename);
@@ -444,11 +445,12 @@ public class MainActivity extends Activity{
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-
+                    loop=true;Log.d(TAG,"Loop");
+                    interupt=false;
                     count = 0;
                     while (loop & !interupt) {
                         try {
-
+                            Log.d(TAG,"Inside Loop");
                             count++;
                             byte datatype;
                             byte n = 6;
@@ -467,7 +469,7 @@ public class MainActivity extends Activity{
                             outgoing.write(command2);
                             outgoing.write(0);
                             commandByte = checkSum(outgoing);
-                            usbService.write(commandByte);
+                            FUNNYWRITE(commandByte);
                             outgoing.reset();
                             Thread.sleep(1500);
                             if (count >= 4) {
@@ -606,7 +608,7 @@ public class MainActivity extends Activity{
             outgoing.write(datatype);
             outgoing.write(commandInt);
             byte[] command=checkSum(outgoing);
-            usbService.write(command);
+            FUNNYWRITE(command);
         }catch (Exception e){e.printStackTrace();}
     }
 
@@ -752,8 +754,28 @@ public class MainActivity extends Activity{
         }
     }
 
-
+public void rcv(View view){
+    recieved=true;
 }
+    public static String bytesToHex(byte[] in) {
+        final StringBuilder builder = new StringBuilder();
+        for(byte b : in) {
+            builder.append(String.format("%02x", b));
+        }
+        return builder.toString();
+    }
+    public void FUNNYWRITE(final byte[]  out){
+        usbService.write(out);
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(getApplicationContext(),MainActivity.bytesToHex(out),Toast.LENGTH_SHORT).show();
+            }
+        };
+        runOnUiThread(r);
+    }
+}
+
 
 final class State {
     static private double R=.05;

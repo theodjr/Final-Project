@@ -12,12 +12,13 @@ import android.hardware.usb.UsbManager;
 import android.os.Binder;
 import android.os.Handler;
 import android.os.IBinder;
-
+import android.widget.Toast;
+import java.lang.Runnable;
 import com.felhr.usbserial.CDCSerialDevice;
 import com.felhr.usbserial.UsbSerialDevice;
 import com.felhr.usbserial.UsbSerialInterface;
 import com.projecttango.quickstartjava.R;
-
+import android.app.Activity;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
@@ -164,6 +165,8 @@ public class UsbService extends Service {
      * This function will be called from MainActivity to write data through Serial Port
      */
     public void write(byte[] data) {
+
+
         if (serialPort != null)
             serialPort.write(data);
     }
